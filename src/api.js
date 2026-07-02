@@ -7,7 +7,7 @@
  * changes, only this file needs updating.
  */
 
-const BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+const BASE_URL = import.meta.env.VITE_API_URL || 'https://task-manager-backend-phsc.onrender.com';
 
 /**
  * Build shared request headers. JSON body requests also get Content-Type.
